@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Discover Play To Earn Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #808080;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #logo {
+            margin-right: auto;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 18px;
+        }
+		
+		a:hover {
+        color: #ffffff;
+        font-size: larger;
+        }
+		
+		button:hover {
+		color: #ffffff;
+        font-size: larger;
+        }
+		
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="P2E-logo.png" alt="Logo" width="100">
+        </div>
+        <nav>
+            <a href="migueleugenio.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="about.html">About</a>
+        </nav>	
+    </header>
+	
+	<section id="about">
+        <h2 style="width: 100%;font-size: xx-large; color: #ffffff; font-family: Arial, sans-serif; background-color: #333; padding-top: 25px; padding-bottom: 25px;"><center>About</center></h2>
+        <center><p style="color: #ffffff; font-family: Arial, sans-serif;">I'm Miguel Eugenio and I am passionate about blockchain gaming and aim to provide you with the latest information, reviews, and guides on Play-to-Earn and NFT games. Join our community to stay updated and connect with like-minded gamers.
+        </p></center>
+    </section>
+	
+		<center><button style="background-color:#333333; color: #fff; font-size: 25px;" id='btn' onclick="gotoLink(this)" value="RESUME.pdf">Resume</button></center>
+			
+	<script>
+	function gotoLink(link){
+	console.log(link.value);
+	location.href = link.value;
+	};
+	</script>
+	
+</body>	
+</html>
